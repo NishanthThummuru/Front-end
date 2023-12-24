@@ -193,7 +193,7 @@ function Main() {
                     <form onSubmit={search} class="d-flex" role="search" style={{ width: "500px", marginTop: "10px", cursor: "pointer" }}>
                         <input value={value} onChange={change} class="form-control me-2" type="search" placeholder="Search" />
                         <button class="btn btn-primary" type="submit">Search</button>
-                        <i type="reset" onClick={reset} style={{ marginTop: "10px", marginLeft: "20px", cursor: "pointer" }} class="fa-solid fa-xmark"></i>
+                        <i type="reset" onClick={reset} style={{ marginTop: "10px", marginLeft: "20px", cursor: "pointer", color:"white" }} class="fa-solid fa-xmark"></i>
                     </form>
                 </div>
                 <div >
@@ -312,12 +312,12 @@ function Main() {
             <div className="fo"  >
 
 
-                <div style={{ paddingTop: "20px", marginLeft: "20px" }}>
+                <div  style={{ paddingTop: "20px", marginLeft: "20px" }}>
                     <h5>LOGO</h5>
                     <p>SUB LINE</p>
                 </div>
 
-                <div style={{ marginLeft: "200px" }}>
+                <div id="mar" >
                     <h4>Pages</h4>
                     <p>About us</p>
                     <p>Our Expertise</p>
@@ -326,21 +326,21 @@ function Main() {
                     <p>Buy</p>
                 </div>
 
-                <div style={{ marginLeft: "200px" }}>
+                <div id="mar" >
                     <h4>Legal and Help</h4>
                     <p>FAQs</p>
                     <p>Terms of use</p>
                     <p>Privacy policy</p>
                 </div>
 
-                <div style={{ marginLeft: "200px" }}>
+                <div id="mar" >
                     <h4>Contact us</h4>
                     <p> <i class="fa-solid fa-location-dot"></i> Address</p>
                     <p> <i class="fa-solid fa-mobile"></i> 6281944655</p>
                     <p> <i class="fa-solid fa-envelope"></i> nishanthummuru@gmail.com</p>
                 </div>
 
-                <div style={{ marginLeft: "180px" }}>
+                <div id="mar" >
                     <h5>Social Link</h5>
                     <br />
                     <div style={{ display: "flex", gap: "15px" }}>
