@@ -9,26 +9,47 @@
 } */
 
 #signup {
-  /* background-image: url("https://www.webfx.com/wp-content/uploads/2023/08/36_responsive_background_image.png"); */
-
   padding: 39px;
-
-  background-color:rgb(21, 102, 172);
-
+background-color:steelblue;
 
 }
-
-
-
-
 
 #h {
   width: 250px;
   padding: 20px;
-  box-shadow: 0px 1px 10px 10px white;
+margin-left: 50px;
   border: 1px solid black;
   border-radius: 20px;
+  background-color: aliceblue;
 }
+
+@media(max-width:960px) {
+  #h {
+    margin-left: 340px;
+  }
+  
+}
+
+@media(max-width:725px) {
+  #h {
+    margin-left: 170px;
+  }
+  
+}
+@media(max-width:426px) {
+  #h {
+    margin-left: 20px;
+   
+  }
+}
+@media(max-width:556px) {
+  #h {
+    margin-left: 20px;
+   
+  }
+}
+
+
 
 #blur {
   /* backdrop-filter: blur(10px); */
@@ -37,62 +58,106 @@
   height: 530px;
   margin-left: 500px;
   padding-left: 15px;
-  border: 2px solid black;
+ 
   border-radius: 20px;
-  box-shadow: 0px 1px 10px 10px rgb(8, 4, 70);
+
+  background-color: rgb(38, 103, 155);
 }
 
 @media(max-width:960px) {
   #blur {
-    margin-left: 1px;
+    margin-left: 300px;
   }
 }
 
-@media(max-width:236px) {
+@media(max-width:725px) {
+  #blur {
+    margin-left: 130px;
+  }
+  
+}
+@media(max-width:556px) {
   #blur {
     margin-left: 1px;
+    width: 300px;
   }
 }
+@media(max-width:350px){
+  #blur{
+    margin-left: none;
+  }
+}
+
+
+
+#in {
+  width: 330px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+
+}
+@media(max-width:556px) {
+  #in {
+    width: 250px;
+  }
+}
+
+#re {
+  margin-left: 60px;
+  width: 200px;
+  padding: 8px;
+  color: white;
+  background-color: rgb(15, 118, 197);
+
+}
+
+@media(max-width:556px) {
+  #re {
+    margin-left: 20px;
+  }
+
+}
+
 
 
 
 #login {
-
-
-  padding: 39px;
-
-  background-color:rgb(21, 102, 172);
+padding: 39px;
+background-color: rgb(21, 102, 172);
 
 
 }
 
 #form {
-  backdrop-filter: blur(10px);
-  /* background-color: rgb(13, 108, 216); */
   width: 380px;
   height: 390px;
+  margin-bottom: 139px;
   margin-left: 500px;
   padding-left: 15px;
-  margin-bottom: 141px;
-  border: 2px solid black;
-  border-radius: 20px;
-  box-shadow: 0px 1px 10px 10px rgb(8, 4, 70);
+ border-radius: 20px;
+background-color: rgb(38, 103, 155);
 
 }
 
 @media(max-width:960px) {
   #form {
-    margin-left: 1px;
+    margin-left: 270px;
 
   }
 }
 
-@media(max-width:236px) {
+@media(max-width:725px) {
   #form {
-    margin-left: 1px;
+    margin-left: 120px;
   }
 }
-
+@media(max-width:556px){
+  #form{
+    margin-left: 0px;
+    width: 300px;
+  }
+}
 
 .item {
   flex: 50px;
@@ -262,4 +327,13 @@
   display: flex;
 
 
+}
+
+#mar{
+margin-left: 200px;
+}
+@media(max-width:417px){
+#mar{
+  margin-left: none;
+}
 }
