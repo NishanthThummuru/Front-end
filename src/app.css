@@ -225,7 +225,7 @@ background-color: rgb(38, 103, 155);
 @media(max-width:1150px) {
   .child2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
   }
 }
 
